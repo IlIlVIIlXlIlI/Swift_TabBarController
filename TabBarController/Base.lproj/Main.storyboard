@@ -31,7 +31,7 @@
                             <constraint firstItem="iXu-yk-QzM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="wNj-L9-F1N"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Ijs-qb-rfi"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="arrowshape.turn.up.left.fill" catalog="system" id="Ijs-qb-rfi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,16 +78,16 @@
                             <constraint firstItem="vWm-wO-cYh" firstAttribute="top" secondItem="HXa-CM-Dnz" secondAttribute="top" constant="200" id="4WP-tf-Bp8"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="CDf-a1-VYM"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="sun.min.fill" catalog="system" id="CDf-a1-VYM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kOb-hm-FTV" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="951" y="558"/>
         </scene>
-        <!--Item-->
+        <!--Third-->
         <scene sceneID="fcb-G1-RjL">
             <objects>
-                <viewController id="Np3-Rx-K4A" sceneMemberID="viewController">
+                <viewController title="Third" id="Np3-Rx-K4A" customClass="ThirdViewController" customModule="TabBarController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YJJ-4w-pEk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,7 +106,7 @@
                             <constraint firstItem="M5l-uo-8eX" firstAttribute="top" secondItem="pzk-O1-KY7" secondAttribute="top" constant="200" id="S5W-Cg-olO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="DV2-zJ-Ezv"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="doc" catalog="system" id="DV2-zJ-Ezv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2k-ge-zVO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,6 +114,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
+        <image name="doc" catalog="system" width="115" height="128"/>
+        <image name="sun.min.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

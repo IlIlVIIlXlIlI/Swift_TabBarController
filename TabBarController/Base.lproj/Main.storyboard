@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="951" y="-125"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--My Tab Var Controller-->
         <scene sceneID="97y-sd-Qtt">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2mi-SE-Y0l" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2mi-SE-Y0l" customClass="MyTabVarController" customModule="TabBarController" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U8u-Dn-r6I">
                         <autoresizingMask key="autoresizingMask"/>
@@ -106,7 +106,7 @@
                             <constraint firstItem="M5l-uo-8eX" firstAttribute="top" secondItem="pzk-O1-KY7" secondAttribute="top" constant="200" id="S5W-Cg-olO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="doc" catalog="system" id="DV2-zJ-Ezv"/>
+                    <tabBarItem key="tabBarItem" title="Third" image="doc" catalog="system" id="DV2-zJ-Ezv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2k-ge-zVO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

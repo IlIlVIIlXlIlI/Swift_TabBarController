@@ -14,6 +14,7 @@
 		C4CAC9D425AE37D400192E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CAC9D325AE37D400192E12 /* Assets.xcassets */; };
 		C4CAC9D725AE37D400192E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CAC9D525AE37D400192E12 /* LaunchScreen.storyboard */; };
 		C4CAC9E025AE3C9000192E12 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAC9DF25AE3C9000192E12 /* ThirdViewController.swift */; };
+		C4CAC9E425B229D600192E12 /* MyTabVarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAC9E325B229D600192E12 /* MyTabVarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C4CAC9D625AE37D400192E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4CAC9D825AE37D400192E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4CAC9DF25AE3C9000192E12 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C4CAC9E325B229D600192E12 /* MyTabVarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabVarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				C4CAC9DF25AE3C9000192E12 /* ThirdViewController.swift */,
+				C4CAC9E325B229D600192E12 /* MyTabVarController.swift */,
 				C4CAC9CA25AE37D300192E12 /* AppDelegate.swift */,
 				C4CAC9CC25AE37D300192E12 /* SceneDelegate.swift */,
 				C4CAC9CE25AE37D300192E12 /* ViewController.swift */,
@@ -142,6 +145,7 @@
 			files = (
 				C4CAC9CF25AE37D300192E12 /* ViewController.swift in Sources */,
 				C4CAC9CB25AE37D300192E12 /* AppDelegate.swift in Sources */,
+				C4CAC9E425B229D600192E12 /* MyTabVarController.swift in Sources */,
 				C4CAC9E025AE3C9000192E12 /* ThirdViewController.swift in Sources */,
 				C4CAC9CD25AE37D300192E12 /* SceneDelegate.swift in Sources */,
 			);
